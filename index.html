@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <!-- fontawsome -->
+    <script src="https://kit.fontawesome.com/25867a62ec.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <!-- header start -->
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg manu-head">
+                <div class="container-fluid px-0">
+                  <a class="navbar-brand" href="index.html">
+                    <div class="imges">
+                        <img class="img-fluid" src="images/logo.png" alt="nipro">
+                    </div>
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#manu-togg" aria-controls="manu-togg" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse m-menu" id="manu-togg">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Service</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Conatct</a>
+                      </li>
+                     </ul> 
+                      
+                    <!-- search startr -->
+                    <div class="search">
+                        <div class="dropdown s-search">
+                            <a class="btn dropdown-toggle s-searched" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                            </a>
+                          
+                            <ul class="dropdown-menu d-menu">
+                              <form action="#">
+                                <div class="row g-2">
+                                    <div class="col-11">
+                                      <input type="text" class="form-control n-form" placeholder="First name" aria-label="First name">
+                                    </div>
+                                    <div class="col-1">
+                                      <button type="submit" class="s-submit"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
+                                    </div>
+                                  </div>
+                              </form>
+                            </ul>
+                          </div>
+                    </div>
+                    <!-- search end -->
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+    <!-- header end -->
+    <!-- hero start -->
+    <section class="banner">
+      <div class="container">
+        <!-- slider start -->
+        <div id="carousel-con" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <!-- single start -->
+              <div class="slider">
+                <div class="row">
+                  <div class="col-lg-7">
+                    <div class="text">
+                      <h2>We Have Talented Team</h2>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. hello Lorem Ipsum has been the industry's stanard dummy text ever since the  hello  bossLorem Ipsum is simply dummy text of the printing</p>
+                      <a href="#">learn more <span> --></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- single end -->
+            </div>
+          </div>
+          
+
+          <button class="btn b-p" type="button" data-bs-target="#carousel-con" data-bs-slide="prev">Previous</button>
+          <span class="hi">|</span>
+          <span class="hi-m">|</span>
+          <span class="hi">|</span>
+          <button class="btn b-n active" type="button" data-bs-target="#carousel-con" data-bs-slide="next">Next</button>
+        </div>
+
+        <!-- slider end
+         -->
+      </div>
+    </section>
+    <!-- hero end -->
+    <!-- feature start -->
+    <section class="feature">
+      <div class="container">
+        <!-- 1st row -->
+        <div class="row justify-content-center">
+          <div class="col-lg-4">
+            <div class="f-title text-center">
+              <div class="rek"></div>
+              <div class="h-title">
+                <h1 class="mb-0">Welcome to Nipro</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 2nd row -->
+        <div class="row">
+          <div class="f-para text-center">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever he to since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not  centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the er including versions of Lorem Ipsum.</p>
+          </div>
+        </div>
+        <!-- 3rd row -->
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="s-featur">
+              <div class="icon f-hove">
+                <i class="fa-regular fa-gem"></i>
+              </div>
+              <div class="s-f-h2">
+                <h2>branding</h2>
+              </div>
+              <hr class="s-f-hr">
+              <div class="s-f-p">
+                <p>Lorem Ipsum is simply dummy   the printing typeset industry Lorem Ipsum has been the</p>
+              </div>
+              <div class="ankor f-hove">
+                <a href="#">more <span>--></span></a>
+              </div>
+            </div>
+          </div>
+          <!-- 2nd feature -->
+          <div class="col-lg-3">
+            <div class="s-featur">
+              <div class="icon f-hove">
+                <i class="fa-regular fa-gem"></i>
+              </div>
+              <div class="s-f-h2">
+                <h2>ui/ux</h2>
+              </div>
+              <hr class="s-f-hr">
+              <div class="s-f-p">
+                <p>Lorem Ipsum is simply dummy   the printing typeset industry Lorem Ipsum has been the</p>
+              </div>
+              <div class="ankor f-hove">
+                <a href="#">more <span>--></span></a>
+              </div>
+            </div>
+          </div>
+          <!-- 3rd feature -->
+          <div class="col-lg-3">
+            <div class="s-featur">
+              <div class="icon f-hove">
+                <i class="fa-regular fa-gem"></i>
+              </div>
+              <div class="s-f-h2">
+                <h2>app design</h2>
+              </div>
+              <hr class="s-f-hr">
+              <div class="s-f-p">
+                <p>Lorem Ipsum is simply dummy   the printing typeset industry Lorem Ipsum has been the</p>
+              </div>
+              <div class="ankor f-hove">
+                <a href="#">more <span>--></span></a>
+              </div>
+            </div>
+          </div>
+          <!-- 4th feature -->
+          <div class="col-lg-3">
+            <div class="s-featur">
+              <div class="icon f-hove">
+                <i class="fa-regular fa-gem"></i>
+              </div>
+              <div class="s-f-h2">
+                <h2>web design</h2>
+              </div>
+              <hr class="s-f-hr">
+              <div class="s-f-p">
+                <p>Lorem Ipsum is simply dummy   the printing typeset industry Lorem Ipsum has been the</p>
+              </div>
+              <div class="ankor f-hove">
+                <a href="#">more <span>--></span></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!-- 3rd end -->
+      </div>
+    </section>
+    <!-- feature end -->
+    <!-- about start -->
+    <section class="abot">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="pic">
+              <img class="img-fluid" src="images/coffee.jpg" alt="nipro">
+            </div>
+          </div>
+          <div class="g-5 col-lg-6">
+            <div class="a-text">
+              <h1>About US</h1>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industr hello Ipsum has been the industry's standard dummy text ever since the 1500s,  ian unknown printer took a galley omen book. It has survived not only five ies, but also the leap into electronic typesetting, remaining essentially un also the leap into electronic typesetting, remaining essentially un <br><br>
+
+                with the release of Letraset sheets containing Lorem Ipsum passages, heo and more recently with desktop publishing software like A PageMaker including versions of Lorem Ipsum.</p>
+                <div class="a-ankor">
+                  <a href="#">learn more <span>--></span> </a>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about end -->
+
+    
+
+    
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
