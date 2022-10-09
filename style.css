@@ -2,6 +2,7 @@
     font-family: 'Lato', sans-serif;
     font-size: 16px;
     font-weight: 400;
+    /* backgrond-color: #ffffff !important; */
 }
 /* header :start */
 .manu-head{
@@ -108,7 +109,9 @@
 }
 /* hero :end */
 /* feature :start */
-.feature{}
+.feature{
+    background-color: #ffffff;
+}
 .f-title{}
 .rek{
     display: inline-block;
@@ -191,6 +194,7 @@ div.s-featur:hover {
 /* about :start */
 .abot{
     margin-bottom: 100px;
+    background-color: #ffffff;
 }
 .pic{}
 .pic img{}
@@ -336,6 +340,7 @@ div.s-featur:hover {
 /* work :end */
 /* choose nipro start */
 .choose{
+    background-color: #ffffff;
    margin-bottom: 100px;
 }
 .cho-title{
@@ -399,7 +404,7 @@ div.s-featur:hover {
     font-style:italic
 }
 body{
-    background-color:#f1f1f2
+    /* background-color:#f1f1f2 */
 }
 .mt-30{
     margin-top:30px
@@ -552,6 +557,185 @@ div .price-sec:hover{
 
 /* best price :end */
 /* nipro responsive :start */
+.res{
+    margin-bottom: 100px;
+    min-height: 80px;
+    background-color: #f8f8f8;
+    
+    
+}
+.res-dis{
+    position: relative;
+}
+.res-text{
+    
+}
+.res-text p{
+    margin: 30px 0;
+    font-weight: 500;
+    text-transform: uppercase;
 
+}
+.res-btn{
+    margin: 22px 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.res-btn a{
+    padding: 10px 35px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: 1px solid #333333;
+    border-radius: 0;
+}
 
 /* nipro responsive :end */
+/* client carousel :start */
+.cl-comments{
+    margin-bottom: 100px;
+}
+.c-slider{}
+.cl-sec{
+    padding: 20px;
+    border: 1px solid black;
+}
+.cl-img{}
+.cl-img img{}
+.cl-text{}
+.cl-text h1{
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.degi{
+    margin: 10px 0;
+}
+.dep{
+    font-weight: 500;
+}
+.mssg{}
+
+.cl-sld-btn{
+    writing-mode: vertical-rl; 
+    /* min-height: 308px; */
+   background-color: #f8f8f8;
+    border: 1px solid black;
+}
+.cl-sld-btn button{
+    margin: 50px 0 50px;
+    transform: rotate(90deg);
+}
+.cl-sld-btn span{
+    align-items: center;
+     
+}
+.cls-pv-btn{
+    margin-top:-16px 45px;
+    
+    
+    
+}
+.cls-nxt-btn{
+    
+    margin: 32px 0px 16px;
+    
+}
+
+/* client carousel :end */
+/* form section :start */
+.form-sec{
+    margin-bottom: 100px;
+    border: 1px solid #8e8e8e;
+}
+.form-title{
+    margin-top: -30px;
+}
+.form-title h1{}
+.cont-form{
+    margin-top: 60px;
+    
+}
+
+.form-control:focus {
+    
+    
+    border-color: none;
+
+    box-shadow: none;
+}
+
+
+.form-bo{
+    padding: 16px 10px;
+    border: none;
+    border-bottom: 1px solid #8e8e8e;
+}
+.form-btn{
+    margin: 20px 0;
+    margin-left: 50%;
+    padding: 10px 30px;
+    
+    text-transform: uppercase;
+    font-weight: 500;
+    border: 1px solid #8e8e8e;
+    border-radius: 0;
+}
+
+/* form section :end */
+/* footer :start */
+.foo{
+    background-image: url(images/Nipro-footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.foot-title{}
+.foot-per{
+    margin: 25px 0;
+}
+.foot-per p{
+    color: #f8f8f8;
+    font-size: 14px;
+
+}
+
+.foot-soc{
+    margin-bottom: 80px;
+}
+.foot-soc a{
+    margin: 0 5px;
+    color: #f8f8f8;
+}
+.foot-soc a i{
+    padding: 18px 20px;
+    border: 1px solid #8e8e8e;
+}
+.foot-soc a:hover i{
+    background-color: #f8f8f8;
+    color: #000000;
+}
+
+
+.foo hr{
+    color: #f8f8f8;
+}
+.foot-bot{ 
+    
+}
+.foot-cop p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #f8f8f8;
+}
+.foot-fo{}
+.foot-fo ul{}
+.foot-fo ul li{}
+.foot-fo ul li{}
+.foot-fo ul li a{ 
+    color: #f8f8f8;
+}
+.foot-fo ul li:hover a{
+    color: #f8f8f8;
+}
+/* footer :end */
