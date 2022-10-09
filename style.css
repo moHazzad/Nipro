@@ -649,7 +649,9 @@ div .price-sec:hover{
     border: 1px solid #8e8e8e;
 }
 .form-title{
+
     margin-top: -30px;
+    background-color: #ffffff;
 }
 .form-title h1{}
 .cont-form{
